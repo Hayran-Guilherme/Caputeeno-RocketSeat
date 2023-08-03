@@ -1,0 +1,23 @@
+"use client"
+import { styled } from "styled-components"
+
+export const TagHeader = styled.header`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 160px;
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+`
+
+export const TagLogo = styled.a`
+  color: var(--logo-color);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+`
